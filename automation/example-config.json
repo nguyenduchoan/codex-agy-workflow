@@ -1,0 +1,15 @@
+{
+  "repo": "/absolute/path/to/codex-agy-workflow-target",
+  "remote_url": "https://github.com/nguyenduchoan/codex-agy-workflow.git",
+  "branch": "main",
+  "test_command": ["python3", "-m", "unittest", "-v"],
+  "codex_command": ["codex"],
+  "agy_command": ["agy"],
+  "codex_home": null,
+  "web_enabled": false,
+  "web_effort": "xhigh",
+  "agent_timeout": 900,
+  "test_timeout": 120,
+  "max_iterations": 3,
+  "protected_paths": ["test_pagination.py"]
+}
